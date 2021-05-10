@@ -1,8 +1,8 @@
 import copy
 from typing import Optional, Callable, TypeVar, Generic
 
-from Trees.src.errors import MissingValueError, EmptyTreeError
-from Trees.src.nodes.bst_node import BSTNode
+from BST-Tree-.errors import MissingValueError, EmptyTreeError
+from BST-Tree-.bst_node import BSTNode
 
 T = TypeVar('T')
 K = TypeVar('K')
